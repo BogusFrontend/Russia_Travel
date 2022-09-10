@@ -1,11 +1,11 @@
 * {
-  margin: 0;
   padding: 0;
 }
 
 body {
   font-family: "Inter", sans-serif;
   color: #ffff;
+  margin: 0;
 }
 
 .container {
@@ -22,4 +22,8 @@ body {
 
 .wrapper {
   background-color: #2a2c2f;
+}
+
+.block_text {
+  max-width: 690px;
 }
