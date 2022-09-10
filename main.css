@@ -8,17 +8,9 @@ body {
 }
 
 .container {
-<<<<<<< HEAD
-    width: 100%;
-    max-width: 1184px;
-    margin: 0 auto;
-    border: 1px solid red;
-
-=======
   width: 100%;
   max-width: 1184px;
   margin: 0 auto;
->>>>>>> 467187e05beffb97547cef7bbb8bfaad23eddb1b
 }
 
 .container_content {
