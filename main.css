@@ -1,19 +1,32 @@
-body {
-
-  font-family: "Inter", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
 
 .container {
+<<<<<<< HEAD
     width: 100%;
     max-width: 1184px;
     margin: 0 auto;
     border: 1px solid red;
 
+=======
+  width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
+>>>>>>> 467187e05beffb97547cef7bbb8bfaad23eddb1b
 }
 
 .container_content {
-    width: 100%;
-    max-width: 984px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-color: #2a2c2f;
 }

@@ -1,0 +1,46 @@
+.travel {
+  margin: 92px 0;
+  text-align: center;
+  color: #fff;
+
+  position: relative;
+}
+
+.travel_overlay {
+  background-color: #000000;
+}
+
+.travel_background {
+  background-image: url('../../src/images/travel/bg.jpg');
+  background-color: #000000;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  width: 100%;
+
+  transition: opacity 0.25s ease-in-out;
+}
+
+.travel_background:hover {
+  opacity: 0.6;
+}
+
+.travel_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.travel_title {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.travel_desc {
+  margin-top: 32px;
+  max-width: 320px;
+  margin: 0 auto;
+}
