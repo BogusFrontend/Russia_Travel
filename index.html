@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <title>Travel Russia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,43 +11,76 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="components/header/header.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header_content">
-          <div class="logo">
-            <img src="" alt="" />
-            <p>Роcсия</p>
-          </div>
-          <div class="language">
-            <p>RU</p>
-            <p>ENG</p>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- main block -->
-    <main class="main">
-        <div class="container_content">
-            <div class="adventure">
-                <h1 class="adventure_title">Путешествия по России</h1>
-                <p class="adventure_desc">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img class="adventure_img" src="" alt="">
-                <p></p>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header_content">
+            <div class="logo">
+              <img src="src/images/__logo.svg" alt="logo" />
             </div>
+            <div class="language">
+              <p class="active">RU</p>
+              <p>ENG</p>
+            </div>
+          </div>
         </div>
-    </main>
-    <!-- footer -->
-    <footer>
-      
-    </footer>
-    <!-- Sction -->
-    <section class="123">
-        <div>
-            <h1>Something...</h1>
+      </header>
+
+      <!-- main block -->
+
+      <main class="main">
+        <div class="container_content">
+          <div class="adventure">
+            <h1 class="adventure_title">Путешествия по России</h1>
+            <p class="adventure_desc">
+              Настоящая страна не в выпусках новостей, а здесь.
+            </p>
+            <img class="adventure_img" src="" alt="" />
+            <p class="adventure_img_desc">ваша полка - верхняя</p>
+          </div>
         </div>
-    </section>
+        <div class="text_after_png">
+          <div class="block_text_title">
+            <!--  -->
+
+            <div class="container_main_text">
+              <div class="container">
+                <div class="block_text">
+                  <h2 class="text_title">Чего мы там не видели</h2>
+                  <p class="text">
+                    По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
+                    но только 36% планируют провести отпуск в родной стране.
+                    Мол, чего мы тут, дома, не видели? На самом деле, Россия —
+                    это целая вселенная с ласковым морем юга, густыми лесами
+                    Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
+                    красоты можно без миллионов на счету, загранпаспорта и
+                    многочасовых перелетов. Как, например, Вера Башмакова —
+                    смелая молодая мама, которая взяла в охапку троих детей,
+                    усадила их в свою «Ладу» и проехала 20 тысяч километров по
+                    родной стране. Мы выбрали и описали некоторые интересные
+                    места, достойные вашего отпуска.
+                  </p>
+                </div>
+                <div class="block_text_desc">
+                  <p class="text_desc">
+                    <span class="bold">Часовых поясов </span>11 <br />
+                    <span class="bold">Объектов природого наследия </span>
+                    <span class="bold_uppercase">юнеско </span>12 <br />
+                    <span class="bold">Объектов культурного наследия </span>
+                    <span class="bold_uppercase">юнеско </span>16 <br />
+                    <span class="bold">Природных заповедников </span>105 <br />
+                    <span class="bold">Аэропортов </span>241 <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
