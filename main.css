@@ -1,10 +1,14 @@
 body {
+
   font-family: "Inter", sans-serif;
 }
+
+
 .container {
     width: 100%;
     max-width: 1184px;
-    margin: 0px auto;
+    margin: 0 auto;
+
 }
 
 .container_content {
