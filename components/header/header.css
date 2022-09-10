@@ -1,0 +1,26 @@
+.header {
+  padding-top: 28px;
+}
+
+.header_content {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: -7px;
+}
+
+.language {
+  display: flex;
+}
+
+.language p:last-child {
+  margin-left: 18px;
+}
+
+p.active {
+  border-bottom: 1px solid white;
+  padding-bottom: 1.5px;
+}
