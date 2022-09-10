@@ -1,0 +1,32 @@
+.footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+
+  padding-bottom: 24px;
+}
+
+.footer_links {
+  font-size: 16px;
+}
+
+.footer_links-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer_links-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+.footer_links-link:hover {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+}
+
+.footer_author-text {
+  font-size: 14px;
+}
