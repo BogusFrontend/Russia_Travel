@@ -16,11 +16,11 @@
   display: flex;
 }
 
-.language p:last-child {
+.language div:last-child {
   margin-left: 18px;
 }
 
-p.active {
-  border-bottom: 1px solid white;
-  padding-bottom: 1.5px;
+div.active p {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #fff;
 }
