@@ -20,7 +20,7 @@
   margin-left: 18px;
 }
 
-.active {
-  border-bottom: 1px solid white;
-  padding-bottom: 1px;
+div.active p {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #fff;
 }

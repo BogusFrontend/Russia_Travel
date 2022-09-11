@@ -1,5 +1,6 @@
 * {
-  margin: 0%;
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
 }
 
@@ -26,4 +27,18 @@ body {
 
 .block_text {
   max-width: 690px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bold_uppercase {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }

@@ -6,3 +6,40 @@
   font-size: 98px;
   font-weight: 900;
 }
+
+.adventure_desc {
+  font-size: 30px;
+  margin-top: 32px;
+}
+
+.adventure_img {
+  margin-top: 64px;
+}
+
+.adventure_img_desc {
+  font-size: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 92px;
+}
+
+.text_title {
+  font-size: 54px;
+  margin-bottom: 40px;
+  font-weight: 900px;
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 33px;
+  line-height: 1.63;
+}
+
+.text_desc {
+  margin-bottom: 92px;
+}
+
+.text_desc p {
+  margin-bottom: 7px;
+}

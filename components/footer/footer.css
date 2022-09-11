@@ -30,3 +30,8 @@
 .footer_author-text {
   font-size: 14px;
 }
+
+.footer_link:hover {
+  padding-bottom: 1px;
+  border-bottom: 1px solid #fff;
+}
