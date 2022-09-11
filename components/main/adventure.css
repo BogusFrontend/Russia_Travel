@@ -1,3 +1,6 @@
+.main {
+  padding-bottom: 64px;
+}
 .adventure {
   text-align: center;
 }
@@ -13,26 +16,27 @@
 }
 
 .adventure_img {
-  margin-top: 64px;
-<<<<<<< HEAD
-  max-width: 100%;
-=======
   width: 100%;
->>>>>>> 33cebdab7a791c0f72b3ca1c923ca73908ae73e5
+  display: block;
 }
 
 .adventure_img_desc {
   font-size: 10px;
   text-align: left;
   text-transform: uppercase;
-  margin-top: 8px;
-  margin-bottom: 92px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.text_after_png {
+  padding-top: 8px;
 }
 
 .text_title {
   font-size: 54px;
-  margin-bottom: 40px;
   font-weight: 900px;
+  margin-top: 64px;
+  margin-bottom: 40px;
 }
 
 .text {
@@ -47,4 +51,8 @@
 
 .text_desc p {
   margin-bottom: 7px;
+}
+
+.text_desc p:last-child {
+  margin-bottom: 0px;
 }

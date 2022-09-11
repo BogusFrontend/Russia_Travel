@@ -11,17 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
-    
+
     <!-- Style links -->
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="./components/attractions/attractions.css" />
     <link rel="stylesheet" href="./components/travel/travel.css" />
     <link rel="stylesheet" href="./components/footer/footer.css" />
     <link rel="stylesheet" href="./components/header/header.css" />
-    <link rel="stylesheet" href="components/main/adventure.css">
-    <link rel="stylesheet" href="components/gallery/gallery.css">
-    <link rel="stylesheet" href="./breakpoints.css">
+    <link rel="stylesheet" href="components/main/adventure.css" />
+    <link rel="stylesheet" href="components/gallery/gallery.css" />
+    <link rel="stylesheet" href="./breakpoints.css" />
   </head>
   <body>
     <!-- Wrapper -->
@@ -30,7 +30,12 @@
         <div class="container">
           <div class="header_content">
             <div class="logo">
-              <img src="./src/images/logo.svg" alt="logo" />
+              <img class="logomax" src="./src/images/logo.svg" alt="logo" />
+              <img
+                class="logomini"
+                src="./src/images/logo320.svg"
+                alt="logominihui"
+              />
             </div>
             <div class="language">
               <div class="active"><p>RU</p></div>
@@ -41,80 +46,92 @@
       </header>
 
       <!-- main block -->
-      
-       <main class="main">
+
+      <main class="main">
         <div class="container_content">
           <div class="adventure">
-            <h1 class="adventure_title">Путешествия <br/> по России</h1>
+            <h1 class="adventure_title">
+              Путешествия <br />
+              по России
+            </h1>
             <p class="adventure_desc">
-              Настоящая страна не в выпусках <br/> новостей, а здесь.
+              Настоящая страна не в выпусках <br />
+              новостей, а здесь.
             </p>
-            <img class="adventure_img" src="src/images/adventure/main.jpg" alt="Копатыч, когда укусила пчела" />
-            <p class="adventure_img_desc">ваша полка - верхняя</p>
           </div>
         </div>
-        <div class="text_after_png"> 
-          <div class="block_text_title">
+      </main>
+    </div>
 
-
-            <div class="container_content">
-              <div class="container">
-                <div class="block_text">
-                  <h2 class="text_title">Чего мы там не видели?</h2>
-                  <p class="text">
-                    По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
-                    но только 36% планируют провести отпуск в родной стране.
-                    Мол, чего мы тут, дома, не видели? На самом деле, Россия —
-                    это целая вселенная с ласковым морем юга, густыми лесами
-                    Саян и суровыми льдами плато Путорана. А ещё увидеть все эти
-                    красоты можно без миллионов на счету, загранпаспорта и
-                    многочасовых перелетов. Как, например, Вера Башмакова —
-                    смелая молодая мама, которая взяла в охапку троих детей,
-                    усадила их в свою «Ладу» и проехала 20 тысяч километров по
-                    родной стране. Мы выбрали и описали некоторые интересные
-                    места, достойные вашего отпуска.
+    <div class="main_photo_text">
+      <img
+        class="adventure_img"
+        src="src/images/adventure/main.jpg"
+        alt="Копатыч, когда укусила пчела"
+      />
+    </div>
+    <div class="wrapper">
+      <div class="text_after_png">
+        <div class="block_text_title">
+          <div class="container_content">
+            <div class="container">
+              <div class="block_text">
+                <p class="adventure_img_desc">ваша полка - верхняя</p>
+                <h2 class="text_title">Чего мы там не видели?</h2>
+                <p class="text">
+                  По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
+                  только 36% планируют провести отпуск в родной стране. Мол,
+                  чего мы тут, дома, не видели? На самом деле, Россия — это
+                  целая вселенная с ласковым морем юга, густыми лесами Саян и
+                  суровыми льдами плато Путорана. А ещё увидеть все эти красоты
+                  можно без миллионов на счету, загранпаспорта и многочасовых
+                  перелетов. Как, например, Вера Башмакова — смелая молодая
+                  мама, которая взяла в охапку троих детей, усадила их в свою
+                  «Ладу» и проехала 20 тысяч километров по родной стране. Мы
+                  выбрали и описали некоторые интересные места, достойные вашего
+                  отпуска.
+                </p>
+              </div>
+              <div class="block_text_desc">
+                <div class="text_desc">
+                  <p><span class="bold">Часовых поясов </span>11</p>
+                  <p>
+                    <span class="bold">Объектов природого наследия </span>
+                    <span class="bold_uppercase">юнеско </span>12
                   </p>
-                </div>
-                <div class="block_text_desc">
-                  <div class="text_desc">
-                    <p><span class="bold">Часовых поясов </span>11</p>
-                    <p>
-                      <span class="bold">Объектов природого наследия </span>
-                      <span class="bold_uppercase">юнеско </span>12
-                    </p>
-                   
-                    <p>
-                      <span class="bold">Объектов культурного наследия </span>
-                      <span class="bold_uppercase">юнеско </span>16
-                    </p>
-                    
-                    <p><span class="bold">Природных заповедников </span>105</p>
-                    <p><span class="bold">Аэропортов </span>241</p>
-                  </div>
+
+                  <p>
+                    <span class="bold">Объектов культурного наследия </span>
+                    <span class="bold_uppercase">юнеско </span>16
+                  </p>
+
+                  <p><span class="bold">Природных заповедников </span>105</p>
+                  <p><span class="bold">Аэропортов </span>241</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="container">
-          <div class="main_gallery">
-            <img src="./src/images/gallery/photo_1_1.jpg" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_1_2.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_1_3.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_1_4.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_2_1.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_2_2.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_2_3.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_2_4.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_3_1.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_3_2.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_3_3.png" alt="pizdatie oboi">
-            <img src="./src/images/gallery/photo_3_4.png" alt="pizdatie oboi">
-          </div>
+      </div>
+      <!-- gallery -->
+      <div class="container">
+        <div class="main_gallery">
+          <img src="./src/images/gallery/photo_1_1.jpg" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_1_2.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_1_3.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_1_4.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_2_1.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_2_2.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_2_3.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_2_4.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_3_1.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_3_2.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_3_3.png" alt="pizdatie oboi" />
+          <img src="./src/images/gallery/photo_3_4.png" alt="pizdatie oboi" />
         </div>
-      </main>
-     
+      </div>
+      <!-- konec gallery -->
+
       <section class="attractions">
         <div class="container_content">
           <div class="attractions_cards">
@@ -323,7 +340,7 @@
           </div>
         </div>
       </section>
-     
+
       <section class="travel">
         <div class="container">
           <div class="travel_overlay">
@@ -342,49 +359,51 @@
           </div>
         </div>
       </section>
-     
-      <footer class="footer">
-        <div class="container">
-          <div class="footer_content">
-            <div class="footer_links">
-              <ul class="footer_links-list">
-                <li class="footer_links-item">
-                  <a class="footer_links-link" href="https://yandex.ru/maps"
-                    >Карты</a
-                  >
-                </li>
-                <li class="footer_links-item">
-                  <a class="footer_links-link" href="https://yandex.ru/pogoda"
-                    >Погода</a
-                  >
-                </li>
-                <li class="footer_links-item">
-                  <a class="footer_links-link" href="https://rasp.yandex.ru/"
-                    >Расписание</a
-                  >
-                </li>
-                <li class="footer_links-item">
-                  <a class="footer_links-link" href="https://calendar.yandex.ru"
-                    >Календарь</a
-                  >
-                </li>
-                <li class="footer_links-item">
-                  <a class="footer_links-link" href="https://travel.yandex.ru/"
-                    >Путешествия</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="footer_author">
-              <p class="footer_author-text">&copy; 2022. <a class="footer_link" href="https://vk.com/bogusex">Bogus</a> & <a class="footer_link" href="https://vk.com/gherniis">Gherniis</a></p>
-            </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_content">
+          <div class="footer_links">
+            <ul class="footer_links-list">
+              <li class="footer_links-item">
+                <a class="footer_links-link" href="https://yandex.ru/maps"
+                  >Карты</a
+                >
+              </li>
+              <li class="footer_links-item">
+                <a class="footer_links-link" href="https://yandex.ru/pogoda"
+                  >Погода</a
+                >
+              </li>
+              <li class="footer_links-item">
+                <a class="footer_links-link" href="https://rasp.yandex.ru/"
+                  >Расписание</a
+                >
+              </li>
+              <li class="footer_links-item">
+                <a class="footer_links-link" href="https://calendar.yandex.ru"
+                  >Календарь</a
+                >
+              </li>
+              <li class="footer_links-item">
+                <a class="footer_links-link" href="https://travel.yandex.ru/"
+                  >Путешествия</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer_author">
+            <p class="footer_author-text">
+              &copy; 2022.
+              <a class="footer_link" href="https://vk.com/bogusex">Bogus</a> &
+              <a class="footer_link" href="https://vk.com/gherniis">Gherniis</a>
+            </p>
           </div>
         </div>
-      </footer> 
+      </div>
+    </footer>
 
-
-
-
-    
+    -->
   </body>
 </html>
