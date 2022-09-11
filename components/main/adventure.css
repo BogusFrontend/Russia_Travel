@@ -14,7 +14,11 @@
 
 .adventure_img {
   margin-top: 64px;
+<<<<<<< HEAD
   max-width: 100%;
+=======
+  width: 100%;
+>>>>>>> 33cebdab7a791c0f72b3ca1c923ca73908ae73e5
 }
 
 .adventure_img_desc {
